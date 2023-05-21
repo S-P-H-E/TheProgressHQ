@@ -16,7 +16,7 @@ export default function ThreadPage() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="flex flex-col justify-center items-center m-7" href={`/thread?threadId=${threadId}&title=${encodeURIComponent(title)}&image=${encodeURIComponent(image.src)}`}>
+      <div className="flex flex-col justify-center items-center m-7">
         <div className="relative flex justify-start items-end rounded-2xl">
           <div className="absolute z-10 text-white m-5">
             <h1 className="text-2xl md:text-4xl font-medium">{title}</h1>
